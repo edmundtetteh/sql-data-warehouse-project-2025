@@ -1,28 +1,27 @@
 /*
 =======================================================================
-📦 Create Database and Schemas – Initialization Script
+Create Database and Schemas – Initialization Script
 =======================================================================
 
-🎯 Purpose:
-    - Creates a new database named **DataWarehouse**
-    - If the database already exists, it will be **dropped and recreated**
+Purpose:
+    - Creates a new database named 'DataWarehouse'
+    - If the database already exists, it will be dropped and recreated
     - Creates three schemas within the database:
-        • **bronze** – for raw/staged data
-        • **silver** – for cleansed/transformed data
-        • **gold** – for business-ready, reporting data
+        • bronze – for raw/staged data
+        • silver – for cleansed/transformed data
+        • gold – for business-ready, reporting data
 
-⚠️ WARNING:
-    - This script will **permanently delete** the existing 'DataWarehouse' database.
+WARNING:
+    - This script will permanently delete the existing 'DataWarehouse' database.
     - All data will be lost if backups are not taken.
     - Use with extreme caution in development or production environments.
 
-💡 Recommendation:
+Recommendation:
     - Ensure proper backups or versioned snapshots are taken before execution.
     - Use this script for clean initialization or during initial project setup.
 
 =======================================================================
 */
-
 
 
 
