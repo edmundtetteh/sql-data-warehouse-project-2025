@@ -69,7 +69,7 @@ Business-ready, **analytics-optimized** data modeled into **star schemas** (fact
 ## 🧰 Tools & Technologies
 
 - **SQL Server** – Database and ETL execution
-- **SSMS / Azure Data Studio** – Development environment
+- **SSMS** – Development environment
 - **GitHub** – Version control
 - *(Optional additions)* Power BI, dbt, Azure Data Factory, etc.
 
